@@ -25,7 +25,7 @@ SECRET_KEY = 'aq3zx7k99qyxj(o=pemf($^fcix1u=#b@wzzxf%nc))k@p($)c'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '<your_username>.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'annapetko.pythonanywhere.com']
 
 
 # Application definition
@@ -80,6 +80,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
 
 
 # Password validation
