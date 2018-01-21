@@ -18,6 +18,8 @@
 
         <h1>{{ post.title }}</h1>
        	<p>{{ post.text|linebreaksbr }}</p>
-       	<img src="https://vashikoshki.ru/wp-content/uploads/2017/12/chernaja_britanskaja_koshka.jpg" alt="vashikoshki.ru/">
+        <img src="{{ post.image }}">
+        <p> <embed src="{{ post.video }}"  allowfullscreen="true" width="425" height="344"> </p>
+      
     </div>
 {% endblock %}
