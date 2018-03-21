@@ -23,9 +23,11 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'aq3zx7k99qyxj(o=pemf($^fcix1u=#b@wzzxf%nc))k@p($)c'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True 
 
 ALLOWED_HOSTS = ['127.0.0.1', 'annapetko.pythonanywhere.com']
+
+LOGIN_REDIRECT_URL = '/'
 
 
 # Application definition
